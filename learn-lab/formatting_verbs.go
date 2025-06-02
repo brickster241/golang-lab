@@ -1,10 +1,10 @@
-package main
+package learnlab
 
 import (
 	"fmt"
 )
 
-func main() {
+func FormattingVerbs() {
 	/*
 		Integer Formatting Verbs
 	*/
