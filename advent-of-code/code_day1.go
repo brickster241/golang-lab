@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 func adventDay1() {
-	dat, err := os.ReadFile("input_day1.txt")
+	dat, err := os.ReadFile("inputs/input_day1.txt")
 
 	if err != nil {
 		panic(err)
