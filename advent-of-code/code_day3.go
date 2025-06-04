@@ -1,4 +1,4 @@
-package main
+package adventofcode
 
 import (
 	"fmt"
@@ -75,8 +75,8 @@ func mulCount(input_st string) int {
 	return count
 }
 
-func main() {
-	dat, err := os.ReadFile("advent-of-code/inputs/input_day3.txt")
+func adventDay3() {
+	dat, err := os.ReadFile("inputs/input_day3.txt")
 
 	if err != nil {
 		panic(err)
