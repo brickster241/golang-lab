@@ -1,0 +1,4 @@
+Hello Golang :) 
+
+You are indeed better than Python.
+
