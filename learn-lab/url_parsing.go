@@ -5,7 +5,7 @@ import (
 	"net/url"
 )
 
-func main() {
+func parseURL() {
 
 	// [scheme://][userinfo@]host[:port][/path][?query][#fragment]
 	rawURL := "https://www.amazon.jobs/en/search?base_query=&loc_query=Cartagena+de+Indias%2C+Colombia&latitude=10.42513&longitude=-75.5383&loc_group_id=&invalid_location=false&country=COL&city=Cartagena&region=&county=Bolivar"
