@@ -1,4 +1,4 @@
-package main
+package learnlab
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ func (c *counter) getValue() int {
 	return c.value
 }
 
-func main() {
+func mutexes() {
 	var wg sync.WaitGroup
 	ctr := &counter{}
 	num_goroutines := 10
