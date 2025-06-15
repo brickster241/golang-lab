@@ -1,4 +1,4 @@
-package main
+package learnlab
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func main() {
+func deadlocks() {
 	var mu1, mu2 sync.Mutex
 	go func(){
 		mu1.Lock()
